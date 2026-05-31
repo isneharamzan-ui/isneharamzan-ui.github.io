@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isneha Muhammad Ramzan — ML & AI Portfolio</title>
+<meta name="description" content="Isneha Muhammad Ramzan — Computer Science student and aspiring Machine Learning & AI engineer. Projects, skills, and contact.">
+<style>
+  :root{
+    --navy:#1f3864; --navy2:#2d4f86; --ink:#1a1a1a; --grey:#555;
+    --bg:#ffffff; --soft:#f4f6fb; --line:#e1e6f0; --accent:#3b6fd4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+
+  /* Nav */
+  nav{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);
+      border-bottom:1px solid var(--line);z-index:10}
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+  nav .brand{font-weight:bold;color:var(--navy);font-size:1.05rem}
+  nav .links a{color:var(--ink);margin-left:18px;font-size:.95rem}
+
+  /* Hero */
+  header.hero{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;
+      padding:70px 0 60px;text-align:center}
+  .avatar{width:108px;height:108px;border-radius:50%;background:#fff;color:var(--navy);
+      display:flex;align-items:center;justify-content:center;font-size:2.5rem;font-weight:bold;
+      margin:0 auto 18px;letter-spacing:1px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+  header.hero h1{font-size:2.3rem;letter-spacing:1px;margin-bottom:8px}
+  header.hero .tag{font-size:1.05rem;opacity:.92;margin-bottom:18px}
+  .contact-row{font-size:.95rem;opacity:.95}
+  .contact-row a{color:#fff;text-decoration:underline}
+  .btns{margin-top:22px}
+  .btn{display:inline-block;background:#fff;color:var(--navy);font-weight:bold;
+      padding:10px 20px;border-radius:6px;margin:6px;font-size:.95rem}
+  .btn.ghost{background:transparent;border:1.5px solid #fff;color:#fff}
+
+  /* Sections */
+  section{padding:46px 0;border-bottom:1px solid var(--line)}
+  h2{color:var(--navy);font-size:1.5rem;margin-bottom:6px}
+  .rule{width:54px;height:3px;background:var(--accent);margin-bottom:22px;border-radius:2px}
+  p{margin-bottom:12px}
+
+  /* Skills */
+  .skills{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .skillcard{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+  .skillcard h3{color:var(--navy);font-size:1rem;margin-bottom:6px}
+  .skillcard p{font-size:.95rem;color:var(--grey);margin:0}
+
+  /* Projects */
+  .project{background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--accent);
+      border-radius:8px;padding:18px 20px;margin-bottom:18px}
+  .project h3{color:var(--navy);font-size:1.15rem;margin-bottom:4px}
+  .project .tools{font-style:italic;color:var(--grey);font-size:.9rem;margin-bottom:10px}
+  .project ul{margin:0 0 0 20px}
+  .project li{margin-bottom:5px}
+
+  /* Contact */
+  .contact-grid{display:flex;flex-wrap:wrap;gap:14px}
+  .contact-grid .item{background:var(--soft);border:1px solid var(--line);border-radius:8px;
+      padding:12px 18px;font-size:.95rem}
+  .contact-grid .item strong{color:var(--navy)}
+
+  footer{text-align:center;padding:28px 0;color:var(--grey);font-size:.9rem}
+
+  @media(max-width:640px){
+    .skills{grid-template-columns:1fr}
+    header.hero h1{font-size:1.8rem}
+    nav .links{display:none}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <span class="brand">Isneha M. Ramzan</span>
+    <span class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </span>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="avatar">IR</div>
+    <h1>Isneha Muhammad Ramzan</h1>
+    <div class="tag">Computer Science Student &nbsp;|&nbsp; Aspiring Machine Learning &amp; AI Engineer</div>
+    <div class="contact-row">
+      Hyderabad, Sindh, Pakistan &nbsp;&bull;&nbsp;
+      <a href="mailto:isneharamzan@gmail.com">isneharamzan@gmail.com</a> &nbsp;&bull;&nbsp; +92 317 3919408
+    </div>
+    <div class="btns">
+      <a class="btn" href="mailto:isneharamzan@gmail.com">Email Me</a>
+      <a class="btn ghost" href="https://github.com/isneharamzan-ui" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About Me</h2><div class="rule"></div>
+    <p>I am a Computer Science undergraduate at Government College University, Hyderabad, with a near-perfect
+      academic record (CGPA 3.98 / 4.00) and a genuine passion for Machine Learning and Artificial Intelligence.
+      I have taught myself ML entirely through hands-on practice &mdash; not just to learn the theory, but because I
+      love watching an idea turn into a model that actually works.</p>
+    <p>I am currently seeking a Machine Learning / AI internship where I can contribute real effort, keep sharpening
+      my skills, and grow with a team building intelligent products. I show up curious, disciplined, and ready to
+      learn fast.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Technical Skills</h2><div class="rule"></div>
+    <div class="skills">
+      <div class="skillcard"><h3>Programming</h3><p>Python, SQL (basics)</p></div>
+      <div class="skillcard"><h3>Machine Learning</h3><p>scikit-learn, TensorFlow, PyTorch (foundational), Keras</p></div>
+      <div class="skillcard"><h3>Data &amp; Analysis</h3><p>NumPy, pandas, Matplotlib</p></div>
+      <div class="skillcard"><h3>Tools</h3><p>Jupyter Notebook, Git &amp; GitHub, Google Colab, VS Code</p></div>
+      <div class="skillcard"><h3>Core Concepts</h3><p>Supervised learning, classification, regression, model evaluation, neural networks</p></div>
+      <div class="skillcard"><h3>Languages</h3><p>English, Urdu</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Machine Learning Projects</h2><div class="rule"></div>
+
+    <div class="project">
+      <h3>Iris Flower Species Classifier</h3>
+      <div class="tools">Python, scikit-learn, pandas, NumPy</div>
+      <ul>
+        <li>Built a multi-class model to identify iris species from petal and sepal measurements.</li>
+        <li>Compared K-Nearest Neighbors and Logistic Regression, reaching ~97% accuracy.</li>
+        <li>Practiced the full ML workflow: data loading, train/test split, training, evaluation.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Handwritten Digit Recognition (MNIST)</h3>
+      <div class="tools">Python, TensorFlow / Keras, NumPy</div>
+      <ul>
+        <li>Trained a neural network to classify handwritten digits (0&ndash;9) from 28&times;28 images.</li>
+        <li>Achieved ~98% test accuracy after tuning layers, activations, and epochs.</li>
+        <li>Visualized predictions and misclassifications to interpret model behavior.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Titanic Survival Prediction</h3>
+      <div class="tools">Python, pandas, scikit-learn</div>
+      <ul>
+        <li>Engineered features (age, class, family size) and handled missing data with pandas.</li>
+        <li>Trained a classification model to predict survival, reaching ~80% accuracy.</li>
+        <li>Strengthened practical skills in data cleaning and feature engineering.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Get In Touch</h2><div class="rule"></div>
+    <p>I am open to internships and learning opportunities in Machine Learning and AI. Feel free to reach out.</p>
+    <div class="contact-grid">
+      <div class="item"><strong>Email:</strong> <a href="mailto:isneharamzan@gmail.com">isneharamzan@gmail.com</a></div>
+      <div class="item"><strong>Phone:</strong> +92 317 3919408</div>
+      <div class="item"><strong>Location:</strong> Hyderabad, Sindh, Pakistan</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Isneha Muhammad Ramzan &nbsp;&bull;&nbsp; Built with passion for Machine Learning &amp; AI
+</footer>
+
+</body>
+</html>
